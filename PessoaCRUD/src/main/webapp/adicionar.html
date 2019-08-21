@@ -1,0 +1,40 @@
+    <div class="containerCabecalho">
+            <div class="contCabecalhoContainer">
+                <h2>Adicionar Pessoa</h2>
+            </div>
+            <div class="contCabecalhoContainer">
+                <div class="buttonContainer">
+                    <button style="display: none" class="btn btn-primary" id="adicionarBut">Adicionar</button>
+                    <button style="display: none" class="btn btn-primary" id="alterarBut">Alterar</button>
+                    <button class="btn btn-primary voltarBut">Voltar</button>
+                </div>
+            </div>
+    </div>
+<form id="addOrChangerForm">
+    <input type="hidden" id="id" name="id"/>
+    <div class="form-group">
+        <label for="CPF">CPF</label>
+        <input max="14" class="form-control" type="text" name="CPF" id="CPF"/>
+    </div>
+
+    <div class="form-group">
+        <label for="nome">Nome</label>
+        <input max="45" class="form-control" type="text" name="nome" id="nome"/>
+    </div>
+
+    <div class="form-group">
+        <label max="14" for="telefone">Telefone</label>
+        <input class="form-control" type="text" name="telefone" id="telefone"/>
+    </div>
+    <div class="form-group">
+        <label for="escolaridade">Escolaridade</label>
+        <select class="form-control" name="escolaridade" id="escolaridade" size="1">
+            <option value="FUNDAMENTAL">Fundamental</option>
+            <option value="MEDIO">Médio</option>
+            <option value="SUPERIOR_INCOMPLETO">Superior Incompleto</option>
+            <option value="SUPERIOR_COMPLETO">Superior Completo</option>
+            <option value="TECNICO_INCOMPLETO">Tecnico Incompleto</option>
+            <option value="TECNICO_COMPLETO">Técnico Completo</option>
+        </select>
+    </div>
+</form>

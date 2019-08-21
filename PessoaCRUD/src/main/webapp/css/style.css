@@ -1,0 +1,75 @@
+
+.blockContainer{
+    position: fixed;
+    display: block;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #000000;
+    opacity: 0.6;
+    box-sizing: border-box;
+}
+.btn-group btn:last-child{
+    z-index: -2;
+}
+#removeAnswerContainer{
+    background-color: white;
+    position: fixed;
+    z-index: 3;
+    width: 300px;
+    top: 50px;
+    left: calc(50% - 150px);
+}
+#removeAnswerContainer .panel-footer .row{
+    height: auto;
+}
+#removeAnswerContainer .panel-footer .row div{
+    width: 50%;
+    float: left;
+    text-align: center;
+    
+}
+@media(max-width:640px){
+    .telcolumn, .escolcolumn{
+        display:none;
+    }
+}
+.containerCabecalho{
+    width: 100%;
+    display: inline-block;
+    height: auto;
+}
+.contCabecalhoContainer{
+    width: 100%;
+    display: inline-block;
+    height: auto;
+}
+.buttonContainer{
+    width: 100%;
+}
+.buttonContainer button{
+    display: block;
+    float: right;
+    box-sizing:border-box;
+    margin-left: 10px;
+}
+.btn-group{
+    padding-bottom: 20px;
+}
+.container-fund, .jumbotron{
+    padding: 10px;
+}
+#errorcontainer{
+    padding: 0px;
+}
+.grupobotao{
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.grupobotao .btn{
+    display: inline-block;
+}
